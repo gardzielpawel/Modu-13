@@ -1,0 +1,27 @@
+{
+  "name": "nauka_npm",
+  "version": "1.0.0",
+  "description": "Testowy plik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gardzielpawel/Modu-13.git"
+  },
+  "keywords": [
+    "npm",
+    "test"
+  ],
+  "author": "Paweł",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gardzielpawel/Modu-13/issues"
+  },
+  "homepage": "https://github.com/gardzielpawel/Modu-13#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
