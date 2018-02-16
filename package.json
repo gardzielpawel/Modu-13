@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/gardzielpawel/Modu-13#readme",
   "dependencies": {
-    "colors": "^1.1.2"
+    "colors": "^1.1.2",
+    "fs-readdir": "0.0.3",
+    "stat-mode": "^0.2.2"
   }
 }
