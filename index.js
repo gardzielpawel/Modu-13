@@ -1,6 +1,7 @@
-var fsReaddir = require('fs-readdir');
+var fs = require('fs');
 
-fsReaddir('../Moduł 13', function _cb(err, filepaths) {
-    console.log('callback err:', err)
-    console.log('callback res:', filepaths)
+fs.readdir('./', function(err, data) {
+  fs.writeFile('./data.txt', data, function() {
+    console.log('dane zostaly zapisane');
   });
+});
